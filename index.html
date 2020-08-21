@@ -9,8 +9,14 @@
 </head>
 
 <body>
-    <h1 id="header">Rock | Paper | Scissors</h1>
-    <h2>Choose your hand wisely!</h2>
+    <div id="scoreBoard">
+        <label id="manScore">Man : 0</label>
+        <h1 id="header">Rock | Paper | Scissors</h1>
+        <label id="machineScore">0 : Machine</label>
+    </div>
+
+    <h2>Choose your hand wisely human!</h2>
+
     <div class="containerOptions">
         <div class="option">
             <img id="rock" src="./images/noun_Fist_477918.png" width="220" , height="200">
@@ -25,21 +31,26 @@
             <label class="slogan">Dont Run with These!</label>
         </div>
     </div>
-    <div>
-        <h1 id="resultHeader"></h1>
-    </div>
-    <div id="results">
+
+    <h1 class="resultText" id="resultHeader" style="visibility:hidden"></h1>
+
+    <div id="results" style="visibility:hidden">
         <div class=resultDisplay>
             <div id="man">
             </div>
-            <label class="resultLabel">Man</label>
+            <label id="resultLabelMan">Man</label>
+        </div>
+        <div class="countReset">
+            <div id="versus">VS</div>
+            <button id="resetButton">Reset</button>
         </div>
         <div class=resultDisplay>
             <div id="machine">
             </div>
-            <label class="resultLabel">Machine</label>
+            <label id="resultLabelMachine">Machine</label>
         </div>
     </div>
+
 </body>
 <script src=" ./index.js"></script>
 

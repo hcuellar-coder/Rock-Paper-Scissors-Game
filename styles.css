@@ -2,11 +2,13 @@ h2{
     font-size: 36px;
     font-family: fantasy;
     text-align: center;
+    margin-bottom: 0;
+    margin-top: 0;
 }
 
 footer{
+    font-size: 24px;
     background-color: whitesmoke;
-    position: fixed;
     font-weight: bold;
     left: 0;
     bottom: 0;
@@ -38,33 +40,96 @@ footer{
 .resultDisplay{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    min-width: 400px;
 }
 
-.resultLabel{
-    font-size: 36px;
-    font-family: fantasy;
-    align-self: center;
+.stalemate{
+    color: green;
 }
 
-#results{
-    /* margin-top: px; */
+.manWinner{
+    color: blue;
+}
+
+.machineWinner{
+    color: red;
+}
+
+.countReset{
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
 }
 
 #header{
-    font-size: 72px;
+    font-size: 56px;
     font-family: fantasy;
     text-align: center;
     margin-top: 0;
     margin-bottom: 20px;
 }
 
+#scoreBoard{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#manScore{
+    font-family: fantasy;
+    font-size: 36px;
+    color: blue;
+    min-width: 200px;
+}
+
+#machineScore{
+    font-family: fantasy;
+    font-size: 36px;
+    color: red;
+    min-width: 200px;
+}
+
 #resultHeader{
     font-size: 48px;
     font-family: fantasy;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+
+#results{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#resultLabelMan{
+    font-size: 36px;
+    font-family: fantasy;
+    align-self: center;
+    color: blue;
+}
+
+#resultLabelMachine{
+    font-size: 36px;
+    font-family: fantasy;
+    align-self: center;
     color: red;
+}
+
+#resetButton{
+    font-size: 48px;
+    font-family: fantasy;
+    align-self: center;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    background-color: white;
+}
+
+#versus{
+    margin-top: 80px;
+    font-size: 72px;
+    font-family: fantasy;
+    align-self: center;
 }
