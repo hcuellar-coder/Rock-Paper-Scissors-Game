@@ -3,7 +3,7 @@ A simple and fun Rock Paper Scissors Game with a hint of dystopia written entire
 
 Code Located [Here](https://github.com/hcuellar-coder/Rock-Paper-Scissors-Game)
 
-Run Code (Sans Images) [Here](https://codepen.io/hcuellar-coder/pen/yLOVMGV)
+Run Code [Here](https://hcuellar-coder.github.io/Rock-Paper-Scissors-Game/)
 
 ![Todo App](./images/Rock-Paper-Scissors.png)
 
