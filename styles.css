@@ -17,7 +17,7 @@ footer{
 
 }
 
-.containerOptions{
+.container-options{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -37,7 +37,7 @@ footer{
     align-self: center;
 }
 
-.resultDisplay{
+.result-display{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -48,15 +48,15 @@ footer{
     color: green;
 }
 
-.manWinner{
+.man-winner{
     color: blue;
 }
 
-.machineWinner{
+.machine-winner{
     color: red;
 }
 
-.countReset{
+.count-reset{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -70,27 +70,27 @@ footer{
     margin-bottom: 20px;
 }
 
-#scoreBoard{
+#score-board{
     display: flex;
     justify-content: space-around;
 
 }
 
-#manScore{
+#man-score{
     font-family: fantasy;
     font-size: 36px;
     color: blue;
     min-width: 200px;
 }
 
-#machineScore{
+#machine-score{
     font-family: fantasy;
     font-size: 36px;
     color: red;
     min-width: 200px;
 }
 
-#resultHeader{
+#result-header{
     font-size: 48px;
     font-family: fantasy;
     text-align: center;
@@ -104,21 +104,21 @@ footer{
     justify-content: space-evenly;
 }
 
-#resultLabelMan{
+#result-label-man{
     font-size: 36px;
     font-family: fantasy;
     align-self: center;
     color: blue;
 }
 
-#resultLabelMachine{
+#result-label-machine{
     font-size: 36px;
     font-family: fantasy;
     align-self: center;
     color: red;
 }
 
-#resetButton{
+#reset-button{
     font-size: 48px;
     font-family: fantasy;
     align-self: center;
