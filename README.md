@@ -11,4 +11,4 @@ Have you ever had to battle against a machine with humanity on the line? Our soo
 I quite enjoyed the challenge of creating this simple Rock Paper Scissors Game. I was able to utilize what I've been learning with keeping data in the local storage. As well as tying in what I've learned pertaining to the relationship between JavaScript, HTML and CSS.
 
 ## Author
-Heriberto Cuellar – Full Stack Software Developer - [LinkedIn](https://www.linkedin.com/in/heriberto-c-5aa11952)
+Heriberto Cuellar – Full Stack Software Developer - [Website](https://heribertocuellar.com) | [LinkedIn](https://www.linkedin.com/in/heriberto-c-5aa11952)
